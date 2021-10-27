@@ -141,55 +141,55 @@ dmypy.json
 .mtj.tmp/
 
 # Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+**.jar
+**.war
+**.nar
+**.ear
+**.zip
+**.tar.gz
+**.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+kafka-java-introduce/hs_err_pid*
 
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+kafka-java-introduce/target/
+kafka-java-introduce/pom.xml.tag
+kafka-java-introduce/pom.xml.releaseBackup
+kafka-java-introduce/pom.xml.versionsBackup
+kafka-java-introduce/pom.xml.next
+kafka-java-introduce/release.properties
+kafka-java-introduce/dependency-reduced-pom.xml
+kafka-java-introduce/buildNumber.properties
+kafka-java-introduce/.mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
 
 # User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
+kafka-java-introduce/.idea/**/workspace.xml
+kafka-java-introduce/.idea/**/tasks.xml
+kafka-java-introduce/.idea/**/usage.statistics.xml
+kafka-java-introduce/.idea/**/dictionaries
+kafka-java-introduce/.idea/**/shelf
 
 # AWS User-specific
-.idea/**/aws.xml
+kafka-java-introduce/.idea/**/aws.xml
 
 # Generated files
-.idea/**/contentModel.xml
+kafka-java-introduce/.idea/**/contentModel.xml
 
 # Sensitive or high-churn files
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
+kafka-java-introduce/.idea/**/dataSources/
+kafka-java-introduce/.idea/**/dataSources.ids
+kafka-java-introduce/.idea/**/dataSources.local.xml
+kafka-java-introduce/.idea/**/sqlDataSources.xml
+kafka-java-introduce/.idea/**/dynamic.xml
+kafka-java-introduce/.idea/**/uiDesigner.xml
+kafka-java-introduce/.idea/**/dbnavigator.xml
 
 # Gradle
-.idea/**/gradle.xml
-.idea/**/libraries
+kafka-java-introduce/.idea/**/gradle.xml
+kafka-java-introduce/.idea/**/libraries
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -205,34 +205,34 @@ buildNumber.properties
 # *.ipr
 
 # CMake
-cmake-build-*/
+kafka-java-introduce/cmake-build-*/
 
 # Mongo Explorer plugin
-.idea/**/mongoSettings.xml
+kafka-java-introduce/.idea/**/mongoSettings.xml
 
 # File-based project format
-*.iws
+**.iws
 
 # IntelliJ
-out/
+kafka-java-introduce/out/
 
 # mpeltonen/sbt-idea plugin
-.idea_modules/
+kafka-java-introduce/.idea_modules/
 
 # JIRA plugin
-atlassian-ide-plugin.xml
+kafka-java-introduce/atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-.idea/replstate.xml
+kafka-java-introduce/.idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
+kafka-java-introduce/com_crashlytics_export_strings.xml
+kafka-java-introduce/crashlytics.properties
+kafka-java-introduce/crashlytics-build.properties
+kafka-java-introduce/fabric.properties
 
 # Editor-based Rest Client
-.idea/httpRequests
+kafka-java-introduce/.idea/httpRequests
 
 # Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
+kafka-java-introduce/.idea/caches/build_file_checksums.ser
