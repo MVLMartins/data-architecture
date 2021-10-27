@@ -1,0 +1,4 @@
+# essa pasta possui todos os namespaces que seram criados
+# dentro do cluster. 
+# A função apply -f . , aplica todos os arquivos do diretorio atual
+kubectl apply -f .
