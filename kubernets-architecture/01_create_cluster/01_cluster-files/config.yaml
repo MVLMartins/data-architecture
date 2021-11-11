@@ -1,0 +1,16 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: data-k8s-cluster-poc
+  region: us-east-1
+  version: "1.21"
+
+nodeGroups:
+  - name: data-k8s-workers-poc
+    instanceType: t2.large
+    desiredCapacity: 3
+    volumeSize: 19
+    volumeType: gp3
+    ssh:
+      publicKeyName: k8s-test

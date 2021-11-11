@@ -25,7 +25,7 @@ aws iam create-policy --policy-name AWSLoadBalancerControllerIAMPolicy --policy-
 
 eksctl utils associate-iam-oidc-provider --cluster data-k8s-cluster-poc --approve
 
-eksctl create iamserviceaccount --cluster=data-k8s-cluster-poc --namespace=kube-system --name=aws-load-balancer-controller --attach-policy-arn=arn:aws:iam::111122223333:policy/AWSLoadBalancerControllerIAMPolicy --override-existing-serviceaccounts --approve
+eksctl create iamserviceaccount --cluster=data-k8s-cluster-poc --namespace=kube-system --name=aws-load-balancer-controller --attach-policy-arn=arn:aws:iam::235494797394:policy/AWSLoadBalancerControllerIAMPolicy --override-existing-serviceaccounts --approve
 
 helm repo add eks https://aws.github.io/eks-charts
 
@@ -33,7 +33,14 @@ helm repo update
 
 helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n kube-system --set clusterName=data-k8s-cluster-poc --set serviceAccount.create=false --set serviceAccount.name=aws-load-balancer-controller
 ```
+# airflow
+```
+helm repo add apache-airflow https://airflow.apache.org
 
+helm repo update
+
+helm install airflow apache-airflow/airflow --namespace orchestration
+```
 
 # Delete cluster
 ```
